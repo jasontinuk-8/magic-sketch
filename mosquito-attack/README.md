@@ -1,14 +1,10 @@
-# Mosquito Attack 2.4
+# Mosquito Attack v2.6
 
-Standalone mobile-friendly HTML arcade game.
+Changes from v2.5:
+- Spray radius reduced to a controlled area (about 13% of the shorter screen side, minimum 44 canvas pixels).
+- Limit sweep samples and avoid per-hit timers/UI refreshes to reduce freezing.
+- Reposition Classic mosquito wings so both connect to the thorax, with subtler flapping.
+- Add more illustrated details to Kitchen, Toilet, Bedroom and Garden backgrounds.
 
-## New in v2.4
-- Select from four visual-only backgrounds: Kitchen, Toilet, Bedroom, Garden.
-- Select Cute or Classic (emoji-inspired) mosquito artwork.
-- Combo for all mosquito kills, including tools; 3-second window, 1x/1.5x/2x/3x multipliers.
-- Rare golden mosquito (100 base points, ~3% spawn probability, one at a time).
-- Freeze pickup: 8 seconds, mosquitoes move at half speed, compatible with other tools.
-- Hit effects, golden mosquito sound, and separate sliders for buzzing, hits, and tool audio.
-- Existing 3-slot inventory, leaderboard, pause and restart settings remain.
-
-Open `index.html` in a modern browser. No installation or external assets needed.
+The v2.5 gameplay rules and five-second spray/electric durations are retained.
+This is a local preview; GitHub has not been updated.
